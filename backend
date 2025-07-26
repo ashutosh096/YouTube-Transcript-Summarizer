@@ -1,0 +1,16 @@
+from flask import Flask, jsonify
+from summarizer import fetch_transcript, summarize_text
+
+app = Flask(__name__)
+
+@app.route('/summarize/<video_id>', methods=['GET'])
+def summarize(video_id):
+    try:
+        transcript = fetch_transcript(video_id)
+        summary = summarize_text(transcript)
+        return jsonify({"summary": summary})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+if __name__ == '__main__':
+    app.run(debug=True)
