@@ -50,3 +50,5 @@ Notes
 Playlist URLs are not supported; only single video URLs.
 Make sure the video has a transcript available; otherwise, the script will return an error.
 Recommended to use Python 3.12 with a virtual environment for compatibility
+
+![image alt](https://github.com/ashutosh096/YouTube-Transcript-Summarizer/blob/b6d9c45983cca7a6b9264abc98f21340a0d493ff/youtube_banner.JPG)
