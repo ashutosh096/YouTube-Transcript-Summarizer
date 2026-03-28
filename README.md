@@ -52,3 +52,4 @@ Make sure the video has a transcript available; otherwise, the script will retur
 Recommended to use Python 3.12 with a virtual environment for compatibility
 
 ![image alt](https://github.com/ashutosh096/YouTube-Transcript-Summarizer/blob/b6d9c45983cca7a6b9264abc98f21340a0d493ff/youtube_banner.JPG)
+![image alt](https://github.com/ashutosh096/YouTube-Transcript-Summarizer/blob/24ce657162226fa8cab2206512c424ade5b72603/Screenshot%202026-03-28%20143913.png)
